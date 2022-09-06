@@ -1,4 +1,4 @@
-# Team Generator
+# Teams Generator
 ## Introduction
 An application that is an implementation of a teams generator system built using Angular.
 
