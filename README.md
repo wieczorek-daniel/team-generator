@@ -10,7 +10,11 @@ git clone https://github.com/wieczorek-daniel/teams-generator.git
 
 To start the application use the following command:
 ```shell
-npm run start
+npm run start # or 'ng serve'
+```
+Then install the dependencies (required packages) using the following command:
+```shell
+npm install
 ```
 To create production files (for deployment) use the following command:
 ```shell
