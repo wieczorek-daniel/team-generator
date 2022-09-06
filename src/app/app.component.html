@@ -17,7 +17,6 @@
   <div *ngIf="teams.length" class="teams-container">
     <app-team *ngFor="let team of teams; let i = index" [team]="team" [index]="i">
     </app-team>
+    <p><b>Teams generated at: </b>{{ currentDate | date:'medium' }}</p>
   </div>
 </div>
-
-<!-- 1:01:01 -->
