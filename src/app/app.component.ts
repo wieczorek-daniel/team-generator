@@ -43,6 +43,7 @@ export class AppComponent {
     }
 
     this.errorMessage = "";
+    this.teams = [];
     const allMembers = [...this.members];
 
     while(allMembers.length) {
